@@ -1,0 +1,13 @@
+{
+    "name": "ohmyzsh",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "fmt": "dprint fmt"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.31",
+        "dprint": "latest",
+        "typescript": "latest"
+    }
+}
