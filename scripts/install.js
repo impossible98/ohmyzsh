@@ -50,7 +50,7 @@ function updatePackage() {
   if (pkg === "brew") {
     childProcess.execSync(`${pkg} update`);
   } else if (pkg === "apt-get") {
-    childProcess.execSync(`sudo ${pkg} update`);
+    childProcess.execSync(`${pkg} update`);
   }
   console.log("更新包成功");
 }
